@@ -1,5 +1,7 @@
 # Sec 2 G3 Science Trainer
 
+**Live app:** https://qtss-sec2-g3-science.streamlit.app  (teacher dashboard: add `?teacher=1` or use the sidebar)
+
 Adaptive self-study MCQ trainer for Sec 2 **G3** Lower Secondary Science (2021 syllabus), **Chapters 9–13 only**:
 Application of Forces and Transfer of Energy · Transfer of Heat Energy · Chemical Changes · Interactions within Ecosystems ·
 Electrical Systems. A G3-only version of the Sec 2 Science trainer (`sec2-science-trainer`): the G3-only outcomes are kept
