@@ -577,7 +577,7 @@ EXPLAIN = [
          hints=["Hazards: overloading a socket, damaged insulation, water near electricity, overheating.", "Which option describes a danger rather than a safe practice?", "Think: could this cause a shock or a fire?"],
          fig=lambda rng: S.plug_wiring(),
          variants=[
-             dict(stem="Fig. 1 shows a plug. Which of the following is an electrical **hazard**?", correct="plugging five high-power appliances into one socket with an adaptor", wrongs={"switching off an appliance at the socket before unplugging it": "That is a safe practice.", "replacing a frayed cable": "That removes a hazard.", "keeping a hair dryer away from the bathroom sink": "That is a safe practice."}),
+             dict(stem="Fig. 1 shows a plug. Which action is an electrical **hazard**?", correct="plugging five high-power appliances into one socket with an adaptor", wrongs={"switching off an appliance at the socket before unplugging it": "That is a safe practice.", "replacing a frayed cable": "That removes a hazard.", "keeping a hair dryer away from the bathroom sink": "That is a safe practice."}),
              dict(stem="Fig. 1 shows a plug. Which situation is most likely to cause an electric shock?", correct="touching a switch with wet hands", wrongs={"using a plug with the correct fuse": "A correct fuse protects the circuit.", "switching off before changing a lamp": "That prevents shocks.", "using an appliance with intact insulation": "Intact insulation keeps the user safe."}),
          ]),
     dict(id="e13_switch_open_which_lamps", level=2, lo="13.1",

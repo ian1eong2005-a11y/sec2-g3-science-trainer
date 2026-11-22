@@ -627,9 +627,9 @@ EXPLAIN = [
          hints=["Expansion: things get bigger when heated. Contraction: smaller when cooled.", "Which examples leave room for a change in size, or use a change in size?", "Think about what would happen on a hot day without the feature."],
          fig=lambda rng: S.bimetallic("none", heated=False),
          variants=[
-             dict(stem="Fig. 1 shows a bimetallic strip. Which of the following is an application of thermal **expansion**?",
+             dict(stem="Fig. 1 shows a bimetallic strip. Which device is an application of thermal **expansion**?",
                   correct="a bimetallic strip in a fire alarm", wrongs={"a vacuum flask keeping tea hot": "That uses a vacuum to stop conduction and convection.", "a shiny kettle": "That reduces heat loss by radiation.", "a wooden spoon handle": "Wood is a poor conductor; nothing expands usefully here."}),
-             dict(stem="Fig. 1 shows a bimetallic strip. Which of the following is a **problem** caused by thermal expansion?",
+             dict(stem="Fig. 1 shows a bimetallic strip. Which situation is a **problem** caused by thermal expansion?",
                   correct="railway tracks buckling on a very hot day", wrongs={"ice forming on a cold window": "That is freezing, a change of state.", "a cup of tea going cold": "That is heat loss by conduction, convection and radiation.", "a balloon sinking as the gas leaks out": "That is a loss of gas, not expansion."}),
          ]),
     dict(id="e10_which_state_expands_most", level=2, lo="10.2",
